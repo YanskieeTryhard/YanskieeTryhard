@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Penjualan Senjata Api</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            color: #333;
+        }
+
+        header {
+            background-color: #343a40;
+            color: #fff;
+            padding: 1rem 0;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            width: 50px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 1rem;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+
+        nav ul li a:hover,
+        nav ul li a.active {
+            background-color: #007bff;
+        }
+
+        main {
+            padding-top: 100px; /* Menghindari overlap dengan header */
+        }
+
+        .about {
+            background-color: #fff;
+            padding: 2rem;
+            margin: 2rem auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+        }
+
+        .about h2 {
+            text-align: center;
+            color: #007bff;
+            margin-bottom: 1rem;
+        }
+
+        .about p,
+        .about ul {
+            font-size: 1rem;
+            line-height: 1.8;
+            margin-bottom: 1rem;
+        }
+
+        .about ul {
+            list-style-type: disc;
+            padding-left: 1.5rem;
+        }
+
+        .team {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .team h2 {
+            color: #007bff;
+            margin-bottom: 1.5rem;
+        }
+
+        .team-member {
+            margin-top: 1rem;
+        }
+
+        .team-member img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 1rem;
+            border: 2px solid #007bff;
+        }
+
+        .team-member h3 {
+            font-size: 1.2rem;
+            color: #333;
+            margin-bottom: 0.5rem;
+        }
+
+        .team-member p {
+            font-size: 1rem;
+            color: #666;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #343a40;
+            color: #fff;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="Logo Pistol.jpg" alt="Logo Aplikasi" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="transaksi.html">Transaksi</a></li>
+                    <li><a href="profil.html" class="active">Profil</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="about">
+            <h2>Tentang Aplikasi</h2>
+            <p>
+                Aplikasi Penjualan Barang Senjata Api adalah platform digital yang dirancang untuk mempermudah transaksi dan pengelolaan data terkait penjualan barang senjata api secara aman dan terorganisir. Dengan antarmuka yang sederhana dan fitur yang lengkap, aplikasi ini cocok digunakan oleh berbagai pihak yang ingin mengelola penjualan mereka dengan efisien.
+            </p>
+            <h3>Fitur Utama:</h3>
+            <ul>
+                <li>Form transaksi dengan input nama barang, jumlah, dan kategori.</li>
+                <li>Daftar transaksi yang tersimpan dengan rapi dan mudah diakses.</li>
+                <li>Validasi input untuk memastikan data yang dimasukkan benar.</li>
+                <li>Responsivitas yang optimal untuk berbagai perangkat.</li>
+            </ul>
+            <h3>Tujuan Kami:</h3>
+            <p>
+                Tujuan utama kami adalah menyediakan alat yang aman, modern, dan dapat diandalkan untuk mendukung transaksi yang transparan dan terorganisir, sambil menjaga kerahasiaan data pengguna.
+            </p>
+        </section>
+        <section class="team">
+            <h2>Tim Pengembang</h2>
+            <div class="team-member">
+                <img src="Mario Bros 8 Bit.png" alt="Ryan">
+                <h3>Muhamad Ryan Mardiansyah</h3>
+                <p>Mahasiswa Semester 1 Ujian Akhir Semester (Sistem Informasi).</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Website Penjualan Barang Senjata Api. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
